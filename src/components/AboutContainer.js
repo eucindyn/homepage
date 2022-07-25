@@ -15,7 +15,7 @@ function AboutContainer() {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, sapiente
         molestiae dolores distinctio veniam magni non, cumque totam ratione
         quisquam placeat pariatur eaque. Quas cum rem repellat deserunt aperiam
-        vel!
+        vel.
       </p>
     </section>
   );
