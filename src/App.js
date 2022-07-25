@@ -1,5 +1,16 @@
+import React from 'react';
+import MainContent from './components/MainContent';
+import Sidebar from './components/Sidebar';
+import './styles/components/app.sass';
+
 function App() {
-  return <div className="App">Hello, world!</div>;
+  return (
+    <div id="portifolio">
+      <h1>Cindy Nascimento</h1>
+      <Sidebar />
+      <MainContent />
+    </div>
+  );
 }
 
 export default App;
