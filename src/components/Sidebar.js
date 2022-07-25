@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialNetworks from './SocialNetworks';
 import InformationContainer from './InformationContainer';
-import Avatar from '../img/profile.png';
+import Avatar from '../img/itsme.jpg';
 import '../styles/components/sidebar.sass';
 
 function Sidebar() {
