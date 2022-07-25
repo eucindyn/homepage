@@ -7,6 +7,9 @@
   padding: 3rem
   gap: 3rem
 
+  @include mixins.tablet2
+    gap: 2rem
+
   h1
     width: 100%
     font-size: 5rem
@@ -15,5 +18,5 @@
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
 
-    @include mixins.mobile
+    @include mixins.tablet
       margin-bottom: 2rem

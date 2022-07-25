@@ -18,10 +18,14 @@
     position: absolute
     top: -3rem
 
-    @include mixins.mobile
+    @include mixins.desktop
       top: 1rem
       max-width: 80%
-      
+
+    @include mixins.tablet  
+      top: 3rem
+      max-width: 90%
+
   .title
       color: variables.$text-color-secondary
       background-color: variables.$bg-color-secondary
@@ -32,12 +36,17 @@
       letter-spacing: .02rem
       text-transform: uppercase
 
-      @include mixins.mobile
-        margin-top: 21rem
+      @include mixins.desktop
+        margin-top: 20rem
 
-      @include mixins.mobile2
+      @include mixins.tablet
         width: 90%
-        font-size: 1rem
-        
+        font-size: 14px
+
+      @include mixins.mobile 
+        margin-top: 15rem 
+                 
   .btn
       @include mixins.btn
+
+       
