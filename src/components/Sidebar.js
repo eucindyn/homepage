@@ -11,7 +11,7 @@ function Sidebar() {
       <p className="title">Desenvolvedora Front-End</p>
       <SocialNetworks />
       <InformationContainer />
-      <a href="https://www.linkedin.com/in/eucindyn/" className="btn">
+      <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eucindyn/" className="btn">
         Download currículo
       </a>
     </aside>
